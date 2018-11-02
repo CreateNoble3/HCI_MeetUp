@@ -1,0 +1,116 @@
+BODY
+{
+    height: 100%;
+    width: 100%;
+}
+
+.topnav {
+    display: inline-block;
+    background-color: blue;
+    overflow: hidden;
+    width: 73%;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .topnav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        width: 100px;
+        background-color: blue;
+    }
+
+    .topnav li {
+        display: inline;
+        text-align: center;
+        float: left;
+        width: 200px;
+        height: 25px;
+    }
+
+    .topnav li input{
+        width: 200px;
+        height: 25px;
+    }
+
+    .topnav a {
+        display: block;
+        width: 200px;
+        height: 25px;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        float: left;
+    }
+
+        .topnav a:hover {
+            background-color: #8eed71;
+            color: #000000;
+        }
+
+    .topnav last-child {
+        border-right: none;
+    }
+
+
+.topnav-Right {
+    display: inline-block;
+    float: right;
+    background-color: blue;
+    overflow: hidden;
+    width: 27%;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .topnav-Right ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        width: 100px;
+        background-color: blue;
+    }
+ 
+    .topnav-Right li {
+        display: inline;
+        text-align: center;
+        float: left;
+        width: 200px;
+        height: 25px;
+    }
+
+    .topnav-Right a {
+        display: block;
+        width: 200px;
+        height: 25px;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        float: left;
+    }
+
+        .topnav-Right a:hover {
+            background-color: #8eed71;
+            color: #000000;
+        }
+
+    .topnav-Right last-child {
+        border-right: none;
+    }
+
+
+.editable-fields{
+    display: flex;
+    width: 50%;
+    align-content: center;
+    height: 100%;
+}
