@@ -17,13 +17,35 @@
         </ul>
         <ul class="topnav-Right">
             <li><a href="EditProfile.htm"> Edit Profile </a></li>
-            <li>Log Out</li>
+            <li><a href="Template.htm">Log Out</a></li>
 
         </ul>
     </header>
 
+    <div class = "current-data">
+        <form>
+            <h2>Current Information</h2>
+            <b>Email Address:</b><br />
+            <p type="text" placeholder="Email Address">someEmail@email.com</p><br /> 
+            <b>Password:</b><br />
+            <p type="text" placeholder="Password">123password</p><br />
+            <b>First Name:</b><br />
+            <p type="text" placeholder="First Name">John</p><br />
+            <b>Last Name:</b><br />
+            <p type="text" placeholder="Last Name">Doe</p><br />
+            <b>Birth Date:</b><br />
+            <p type="date" placeholder="Birth Date">01/01/2000</p><br />
+            <b>Address:</b><br />
+            <p type="text" placeholder="Address">123 Sesame Street, Someplace</p><br />
+            <b>Interests:</b><br />
+            <p placeholder="Enter your interests" rows="5" cols="50">Stuff</p>
+            <br/>
+        </form>
+    </div>
+
     <div class="editable-fields">
         <form>
+            <h2>Edit Information</h2>
             Email Address: <br />
             <input type="text" placeholder="Email Address" /> <br /> 
             Password: <br />
@@ -41,10 +63,14 @@
             <input type="text" placeholder="Address" /> <br />
             Interests: <br />
             <textarea placeholder="Enter your interests" rows="5" cols="50"></textarea>
+            <br/>
+            <button style="height:50px;width:100px">Confirm</button>
+            <button style="height:50px;width:100px">Cancel</button>
         </form>
+        
     </div>
 
-
+    
 
 
 
