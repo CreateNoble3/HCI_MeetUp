@@ -41,7 +41,7 @@ BODY
         width: 200px;
         height: 25px;
         font-size: 18px;
-        color: black;
+        color: white;
         text-align: center;
         vertical-align: middle;
         text-decoration: none;
@@ -50,11 +50,24 @@ BODY
 
         .topnav a:hover {
             background-color: #8eed71;
-            color: #000000;
+            color:white;
         }
 
     .topnav last-child {
         border-right: none;
+    }
+
+    .topname {
+        display: block;
+        width: 200px;
+        height: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        float: left;
     }
 
 
@@ -91,7 +104,7 @@ BODY
         width: 200px;
         height: 25px;
         font-size: 18px;
-        color: black;
+        color: white;
         text-align: center;
         vertical-align: middle;
         text-decoration: none;
@@ -100,7 +113,7 @@ BODY
 
         .topnav-Right a:hover {
             background-color: #8eed71;
-            color: #000000;
+            color: white;
         }
 
     .topnav-Right last-child {
