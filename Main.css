@@ -112,3 +112,14 @@ h3.landing {
     align-content: center;
     height: 100%;
 }
+
+.event{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.eventefields{
+    display: flex;
+    margin-top: 3%;
+}

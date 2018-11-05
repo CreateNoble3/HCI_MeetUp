@@ -2,6 +2,31 @@
 <HEAD>
     <link rel="stylesheet" type="text/css" href="Main.css" />
     <title>MeetUp | Profile</title>
+    <script>
+        function add() { // this.form.EA.value,this.form.Pass.value,this.form.CP.value,this.form.FN.value,this.form.LN.value,this.form.BD.value,this.form.Ad.value,this.form.Ints.value
+            let x, email, password, firstN, lastN, birthDate, address, interests, y
+
+            x = document.getElementById("editForm")
+
+            email = x.elements["EA"].value
+            password = x.elements["Pass"].value
+            firstN = x.elements["FN"].value
+            lastN = x.elements["LN"].value
+            birthDate = x.elements["BD"].value
+            address = x.elements["Ad"].value
+            intrests = x.elements["Ints"].value
+            
+            y = document.getElementById("info")
+
+            y.getElementById("ea").innerHTML = email
+            y.getElementById("pass").innerHTML = password
+            y.getElementById("fn").innerHTML = firstN
+            y.getElementById("ln").innerHTML = lastN
+            y.getElementById("bd").innerHTML = birthDate
+            y.getElementById("ad").innerHTML = address
+            y.getElementById("ints").innerHTML = intrests
+        }
+    </script>
 </HEAD>
 <BODY>
     <header>
@@ -16,51 +41,50 @@
     </header>
 
     <div class = "current-data">
-        <form>
+        <form id="info">
             <h2>Current Information</h2>
             <b>Email Address:</b><br />
-            <p type="text" placeholder="Email Address">someEmail@email.com</p><br /> 
-            <b>Password:</b><br />
-            <p type="text" placeholder="Password">123password</p><br />
+            <p type="text" id="ea" value="SomeEmail@email.com">SomeEmail@email.com</p><br /> 
+            <b>Password:</b><br/>
+            <p type="text" id="pass" value="123password">123password</p><br />
             <b>First Name:</b><br />
-            <p type="text" placeholder="First Name">John</p><br />
+            <p type="text" id="fn" value="John">John</p><br />
             <b>Last Name:</b><br />
-            <p type="text" placeholder="Last Name">Doe</p><br />
+            <p type="text" id="ln" value="Doe">Doe</p><br />
             <b>Birth Date:</b><br />
-            <p type="date" placeholder="Birth Date">01/01/2000</p><br />
+            <p type="date" id="bd" value="01/01/2000">01/01/2000</p><br />
             <b>Address:</b><br />
-            <p type="text" placeholder="Address">123 Sesame Street, Someplace</p><br />
+            <p type="text" name="ad" value="123 Sesame Street, Someplace">123 Sesame Street, Someplace</p><br />
             <b>Interests:</b><br />
-            <p placeholder="Enter your interests" rows="5" cols="50">Stuff</p>
+            <p name="ints" rows="5" cols="50" value="Stuff">Stuff</p>
             <br/>
         </form>
     </div>
 
     <div class="editable-fields">
-        <form>
+        <form id = "editForm">
             <h2>Edit Information</h2>
             Email Address: <br />
-            <input type="text" placeholder="Email Address" /> <br /> 
+            <input type="text" placeholder="Email Address" id="EA"/> <br /> 
             Password: <br />
-            <input type="text" placeholder="Password" /> <br />
+            <input type="text" placeholder="Password" id="Pass" /> <br />
             Confirm Password: <br />
-            <input type="text" placeholder="Confirm Password" /> <br />
+            <input type="text" placeholder="Confirm Password" id="CP" /> <br />
             <br />
             First Name: <br />
-            <input type="text" placeholder="First Name" /> <br />
+            <input type="text" placeholder="First Name" id="FN"/> <br />
             Last Name: <br />
-            <input type="text" placeholder="Last Name" /> <br />
+            <input type="text" placeholder="Last Name" id="LN" /> <br />
             Birth Date: <br />
-            <input type="date" placeholder="Birth Date" /> <br />
+            <input type="date" placeholder="Birth Date" id="BD"/> <br />
             Address: <br />
-            <input type="text" placeholder="Address" /> <br />
+            <input type="text" placeholder="Address" id="Ad"/> <br />
             Interests: <br />
-            <textarea placeholder="Enter your interests" rows="5" cols="50"></textarea>
+            <textarea placeholder="Enter your interests" id="Ints" rows="5" cols="50"></textarea>
             <br/>
-            <button style="height:50px;width:100px">Confirm</button>
+            <button style="height:50px;width:100px" onclick="add()">Confirm</button>
             <button style="height:50px;width:100px">Cancel</button>
         </form>
-        
     </div>
 
     
