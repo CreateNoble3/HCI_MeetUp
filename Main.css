@@ -3,6 +3,9 @@ BODY
     height: 100%;
     width: 100%;
     margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: Black;
 }
 
 nav.menu {
@@ -126,7 +129,7 @@ p.bold {
 .landing-about {
     height: 150px;
     width: 100%;
-    background-color: rgba(256, 256, 256, 0.6);
+    background-color: rgba(128, 128, 128, 0.6);
     margin-top: 400px;
     padding-left: 115px;
     padding-right: 115px;
@@ -134,7 +137,25 @@ p.bold {
     padding-bottom: 50px;
 }
 
-.current-data {
+.login-box {
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
+    background-color: rgba(256, 256, 256);
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.login-title {
+    margin-top: 120px;
+}
+
+.editable-fields{
     display: flex;
     height: 100%;
     width: 400px;
