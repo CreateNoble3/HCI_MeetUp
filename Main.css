@@ -2,7 +2,48 @@ BODY
 {
     height: 100%;
     width: 100%;
+    margin: 0px;
 }
+
+nav.menu {
+    overflow: hidden;
+    background-color: grey;
+}
+
+    a.left {
+        float: left;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 23px;
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    a.right {
+        float: right;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 23px;
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    form.left {
+        float: left;
+        text-align: center;
+        padding: 20px;
+        margin: 0px;
+    }
+
+        a.active {
+            background-color: greenyellow;
+        }
+
+        a:hover {
+            background-color: greenyellow;
+        }
 
 h1.landing {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
