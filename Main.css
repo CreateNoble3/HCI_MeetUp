@@ -83,6 +83,18 @@ h3.landing {
     margin-bottom: 10px;
 }
 
+.quote {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
 h1.bold {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 45px;
@@ -390,6 +402,14 @@ button.login-form {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.botcentered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 
 h1.res{
     color:greenyellow;
