@@ -13,9 +13,9 @@
             </form>
             <a href="index.html" class="right">Logout</a>
             <a href="EditProfile.htm" class="right active">Edit Profile</a>
-
         </nav>
     </header>
+
     <div class="allencompasing">
 
         <h1 class="eventheading">Make Event</h1>
@@ -44,15 +44,17 @@
                     <input class="eyepop" type="time" placeholder="Time" />
                     <br /> <br />
                     <input type="text" id="Location" placeholder="Location" />
+                    Use current location: <input type="checkbox" onclick="document.getElementById('Location').disabled=this.checked;" />
                     <br /> <br />
                     <input type="radio" name="PublicPrivate" value="Public" checked="checked"> Public
                     <input type="radio" name="PublicPrivate" value="Private"> Private
                     <br /> <br />
-                    <input class="button" type="button" value="Invite Friends" disabled="disabled" />
-                    <input class="button" type="submit" value="Create Event" />
+                    <input class="button" type="button" value="Invite Friends" disabled="disabled">
+                    <input class="button" type="submit" value="Create Event">
                 </form>
             </div>
         </div>
     </div>
+
 </BODY>
 </HTML>
