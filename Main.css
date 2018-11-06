@@ -299,3 +299,11 @@ button.login-form {
 .allencompasing{
     background-color: rgba(128, 128, 128, 0.6);
 }
+
+.result {
+    margin-left: 30%;
+    background-color: rgba(128, 128, 128, 0.6);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 20%;
+    width: 40%;
+}
