@@ -167,7 +167,7 @@ textarea.intent {
     display: block;
     margin: 0 auto;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 button.intent{
@@ -175,6 +175,7 @@ button.intent{
     color: grey;
     font-size: 16px;
     margin-left: 15px;
+    margin-top: 25px;
     margin-right: 0px;
     height: 50px;
     width: 100px;
