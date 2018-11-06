@@ -145,6 +145,13 @@ input.eyepop {
     margin-bottom: 0px;
 }
 
+textarea.eyepop {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 input.button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: grey;
@@ -315,9 +322,36 @@ button.login-form {
 }
 
 .result {
-    margin-left: 30%;
+    margin-top: 20px;
+    margin-left: 25%;
     background-color: rgba(128, 128, 128, 0.6);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 23%;
-    width: 40%;
+    height: 200px;
+    width: 50%;
+}
+
+p.res{
+    color:white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p.resTitle{
+    color:greenyellow;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1.res{
+    color:greenyellow;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
