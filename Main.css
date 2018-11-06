@@ -229,11 +229,14 @@ button.login-form {
 
 .event{
     display: flex;
-    margin-top: 3%;
-    margin-left: 25%;
+    margin-left: 35%;
 }
 
-.eventefields{
-    display: flex;
-    margin-top: 3%;
+.eventheading {
+    margin-left: 35%;
+    padding-top: 10px;
+}
+
+.allencompasing{
+    background-color: rgba(128, 128, 128, 0.6);
 }
