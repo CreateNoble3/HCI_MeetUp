@@ -2,33 +2,9 @@
 <HEAD>
     <link rel="stylesheet" type="text/css" href="Main.css" />
     <title>MeetUp | Profile</title>
-    <script>
-        function add() { // this.form.EA.value,this.form.Pass.value,this.form.CP.value,this.form.FN.value,this.form.LN.value,this.form.BD.value,this.form.Ad.value,this.form.Ints.value
-            let x, email, password, firstN, lastN, birthDate, address, interests, y
 
-            x = document.getElementById("editForm")
-
-            email = x.elements["EA"].value
-            password = x.elements["Pass"].value
-            firstN = x.elements["FN"].value
-            lastN = x.elements["LN"].value
-            birthDate = x.elements["BD"].value
-            address = x.elements["Ad"].value
-            intrests = x.elements["Ints"].value
-            
-            y = document.getElementById("info")
-
-            y.getElementById("ea").innerHTML = email
-            y.getElementById("pass").innerHTML = password
-            y.getElementById("fn").innerHTML = firstN
-            y.getElementById("ln").innerHTML = lastN
-            y.getElementById("bd").innerHTML = birthDate
-            y.getElementById("ad").innerHTML = address
-            y.getElementById("ints").innerHTML = intrests
-        }
-    </script>
 </HEAD>
-<BODY>
+<BODY background="images/MeetUp_EventsPage_CardGames01.jpg" style = "background-repeat: no-repeat; background-size: cover;">
     <header>
         <nav class="menu">
             <a href="home.html" class="left">Home</a>
@@ -43,50 +19,53 @@
 
     <div class = "current-data">
         <form id="info">
-            <h2>Current Information</h2>
-            <b>Email Address:</b><br />
-            <p type="text" id="ea" value="SomeEmail@email.com">SomeEmail@email.com</p><br /> 
-            <b>Password:</b><br/>
-            <p type="text" id="pass" value="123password">123password</p><br />
-            <b>First Name:</b><br />
-            <p type="text" id="fn" value="John">John</p><br />
-            <b>Last Name:</b><br />
-            <p type="text" id="ln" value="Doe">Doe</p><br />
-            <b>Birth Date:</b><br />
-            <p type="date" id="bd" value="01/01/2000">01/01/2000</p><br />
-            <b>Address:</b><br />
-            <p type="text" name="ad" value="123 Sesame Street, Someplace">123 Sesame Street, Someplace</p><br />
-            <b>Interests:</b><br />
-            <p name="ints" rows="5" cols="50" value="Stuff">Stuff</p>
+            <h2 class="bold">Current Information</h2>
+            <b class="bold">Email Address:</b><br />
+            <p class="bold" type="text" id="ea" value="SomeEmail@email.com">SomeEmail@email.com</p><br /> 
+            <b class="bold">Password:</b><br/>
+            <p class="bold" type="text" id="pass" value="123password">123password</p><br />
+            <b class="bold">First Name:</b><br />
+            <p class="bold" type="text" id="fn" value="John">John</p><br />
+            <b class="bold">Last Name:</b><br />
+            <p class="bold" type="text" id="ln" value="Doe">Doe</p><br />
+            <b class="bold">Birth Date:</b><br />
+            <p class="bold" type="date" id="bd" value="01/01/2000">01/01/2000</p><br />
+            <b class="bold">Address:</b><br />
+            <p class="bold" type="text" name="ad" value="123 Sesame Street, Someplace">123 Sesame Street, Someplace</p><br />
+            <b class="bold">Interests:</b><br />
+            <p class="bold" name="ints" rows="5" cols="50" value="Stuff">Stuff</p>
             <br/>
         </form>
+
+        <div class="editable-fields">
+            <form id = "editForm">
+                <h1 class="bold">Edit Information</h1>
+                <p class="intent">Email Address</p>
+                <input type="text" placeholder="Email Address" id="EA"/> <br /> 
+                <p class="intent">Password</p>
+                <input type="text" placeholder="Password" id="Pass" /> <br />
+                <p class="intent">Confirm Password</p>
+                <input type="text" placeholder="Confirm Password" id="CP" /> <br />
+                <br />
+                <p class="intent">First Name</p>
+                <input type="text" placeholder="First Name" id="FN"/> <br />
+                <p class="intent">Last Name</p>
+                <input type="text" placeholder="Last Name" id="LN" /> <br />
+                <p class="intent">Birth Date</p>
+                <input type="date" placeholder="Birth Date" id="BD"/> <br />
+                <p class="intent">Address</p>
+                <input type="text" placeholder="Address" id="Ad"/> <br />
+                <p class="intent">Interests</p>
+                <textarea class="intent" placeholder="Enter your interests" id="Ints" rows="7" cols="25"></textarea>
+                <br/>
+                <br/>
+                <button style="height:50px;width:100px" onclick="add()">Confirm</button>
+                <button style="height:50px;width:100px">Cancel</button>
+            </form>
+        </div>
     </div>
 
-    <div class="editable-fields">
-        <form id = "editForm">
-            <h2>Edit Information</h2>
-            Email Address: <br />
-            <input type="text" placeholder="Email Address" id="EA"/> <br /> 
-            Password: <br />
-            <input type="text" placeholder="Password" id="Pass" /> <br />
-            Confirm Password: <br />
-            <input type="text" placeholder="Confirm Password" id="CP" /> <br />
-            <br />
-            First Name: <br />
-            <input type="text" placeholder="First Name" id="FN"/> <br />
-            Last Name: <br />
-            <input type="text" placeholder="Last Name" id="LN" /> <br />
-            Birth Date: <br />
-            <input type="date" placeholder="Birth Date" id="BD"/> <br />
-            Address: <br />
-            <input type="text" placeholder="Address" id="Ad"/> <br />
-            Interests: <br />
-            <textarea placeholder="Enter your interests" id="Ints" rows="5" cols="50"></textarea>
-            <br/>
-            <button style="height:50px;width:100px" onclick="add()">Confirm</button>
-            <button style="height:50px;width:100px">Cancel</button>
-        </form>
-    </div>
+    
 
     
 
