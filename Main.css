@@ -169,6 +169,19 @@ button.intent{
     font-size: 16px;
     margin-left: 15px;
     margin-right: 0px;
+    height: 50px;
+    width: 100px;
+}
+
+button.log{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-top: 80px;
+    height: 100px;
+    width: 200px;
 }
 
 input.eyepop.radio{
@@ -209,7 +222,8 @@ input.eyepop.radio{
     width: 450px;
     border-radius: 15px;
     background-color: rgba(256, 256, 256);
-    margin: auto;
+    display: block;
+    margin: 0 auto;
     vertical-align: middle;
     margin-top: 50px;
     padding-left: 50px;
