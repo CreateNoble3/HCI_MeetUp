@@ -1,0 +1,62 @@
+<HTML>
+        <HEAD>
+            <link rel="stylesheet" type="text/css" href="Main.css" />
+            <title>MeetUp | Profile</title>
+        
+        </HEAD>
+        <BODY background="images/MeetUp_EventsPage_CardGames01.jpg" style = "background-repeat: no-repeat; background-size: cover;">
+            <header>
+                <nav class="menu">
+                    <a href="homeMobile.html" class="left">Home</a>
+                    <a href="MakeEventMobile.html" class="left">Make Event</a>
+                    <form action="SearchResultsMobile.html" class="left">
+                        <input class="eyepop" type="text" name="Search" placeholder="Search" />
+                    </form>
+                    <a href="index.html" class="right">Logout</a>
+                    <a href="EditProfileMobile.html" class="right active">Edit Profile</a>
+                </nav>
+            </header>
+        
+            <div class = "current-data" style="height:100%;">
+                <form id="info">
+                    <h2 class="bold">Current Information</h2>
+                    <b class="bold">Email Address:</b><br />
+                    <p class="bold" type="text" id="ea" value="SomeEmail@email.com">SomeEmail@email.com</p><br /> 
+                    <b class="bold">Password:</b><br/>
+                    <p class="bold" type="text" id="pass" value="123password">123password</p><br />
+                    <b class="bold">First Name:</b><br />
+                    <p class="bold" type="text" id="fn" value="John">John</p><br />
+                    <b class="bold">Last Name:</b><br />
+                    <p class="bold" type="text" id="ln" value="Doe">Doe</p><br />
+                    <b class="bold">Birth Date:</b><br />
+                    <p class="bold" type="date" id="bd" value="01/01/2000">01/01/2000</p><br />
+                    <b class="bold">Address:</b><br />
+                    <p class="bold" type="text" name="ad" value="123 Sesame Street, Someplace">123 Sesame Street, Someplace</p><br />
+                    <b class="bold">Interests:</b><br />
+                    <p class="bold" name="ints" rows="5" cols="50" value="Stuff">Stuff</p>
+                    <br/>
+                    <h1 class="bold">Edit Information</h1>
+                        <p class="intent">Email Address</p>
+                        <input class = "intent" type="text" placeholder="Email Address" id="EA"/>
+                        <p class="intent">Password</p>
+                        <input class = "intent" type="text" placeholder="Password" id="Pass" />
+                        <p class="intent">Confirm Password</p>
+                        <input class = "intent" type="text" placeholder="Confirm Password" id="CP" />
+                        <p class="intent">First Name</p>
+                        <input class = "intent" type="text" placeholder="First Name" id="FN"/>
+                        <p class="intent">Last Name</p>
+                        <input class = "intent" type="text" placeholder="Last Name" id="LN" />
+                        <p class="intent">Birth Date</p>
+                        <input class = "intent" type="date" placeholder="Birth Date" id="BD"/>
+                        <p class="intent">Address</p>
+                        <input class = "intent" type="text" placeholder="Address" id="Ad"/>
+                        <p class="intent">Interests</p>
+                        <textarea class="intent" placeholder="Enter your interests" id="Ints" rows="7" cols="25" style="margin-bottom:10px;"></textarea>
+                        <button class="intent" style="display: block;margin: 0 auto;height: 30px; width: 195px;">Edit Profile Photo</button>
+                        <button class="intent" style="display: block;margin: 0 auto;height: 30px; width: 195px;margin-top:5px;">Access Camera</button>
+                        <button class="intent" onclick="add()"  style="margin-left: 85px;margin-right: 10px;margin-top:15px;">Confirm</button>
+                        <button class="intent"  style="margin-left: 10px;margin-right: 10px;margin-top:15px;">Cancel</button>
+            </div>
+        </BODY>
+        </HTML>
+        
