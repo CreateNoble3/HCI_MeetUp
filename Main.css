@@ -88,7 +88,7 @@ h1.bold {
     font-size: 45px;
     text-align: center;
     color: greenyellow;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 25px;
 }
 
@@ -126,6 +126,75 @@ p.intent {
     text-align: center;
     color: white;
     margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+input.intent {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: gray;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input.eyepop {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+textarea.eyepop {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input.button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 100px;
+}
+
+textarea.intent {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button.intent{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 0px;
+    height: 50px;
+    width: 100px;
+}
+
+button.log{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-top: 80px;
+    height: 100px;
+    width: 200px;
+}
+
+input.eyepop.radio{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -172,7 +241,8 @@ p.intent {
     width: 450px;
     border-radius: 15px;
     background-color: rgba(256, 256, 256);
-    margin: auto;
+    display: block;
+    margin: 0 auto;
     vertical-align: middle;
     margin-top: 50px;
     padding-left: 50px;
@@ -197,13 +267,14 @@ label.login-form {
     text-align: left;
     color: greenyellow;
 }
+
 button.login-form {
     margin: 20px;
 }
 
 .editable-fields{
     display: flex;
-    height: 90%;
+    height: 100%;
     width: 300px;
     align-self: center;
     background-color: rgba(128, 128, 128, 0.6);
@@ -211,7 +282,7 @@ button.login-form {
     margin-left: 500px;
     padding-left: 115px;
     padding-right: 115px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
 }
 
@@ -241,13 +312,52 @@ button.login-form {
 
 .event{
     display: flex;
-    margin-top: 3%;
-    margin-left: 25%;
+    margin-left: 35%;
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.eventfields{
+    display: flex;
+    font-size: 17px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.eventefields{
-    display: flex;
-    margin-top: 3%;
+.eventheading {
+    padding-top: 10px;
+    text-align: center;
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.allencompasing{
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.result {
+    margin-top: 20px;
+    margin-left: 25%;
+    background-color: rgba(128, 128, 128, 0.6);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200px;
+    width: 50%;
+}
+
+p.res{
+    color:white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p.resTitle{
+    color:greenyellow;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .mapsearch{
@@ -261,4 +371,13 @@ button.login-form {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+h1.res{
+    color:greenyellow;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
