@@ -156,7 +156,7 @@ p.intent {
 }
 
 .login-box {
-    height: 400px;
+    height: 300px;
     width: 450px;
     border-radius: 15px;
     background-color: rgba(256, 256, 256);
@@ -169,8 +169,24 @@ p.intent {
     padding-bottom: 50px;
 }
 
+form.login {
+    margin: 20px;
+    text-align: left;
+}
+
 .login-title {
     margin-top: 120px;
+    font-weight: bold;
+}
+
+label.login-form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    color: greenyellow;
+}
+button.login-form {
+    margin: 20px;
 }
 
 .editable-fields{
