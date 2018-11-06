@@ -138,6 +138,22 @@ input.intent {
     margin-bottom: 0px;
 }
 
+input.eyepop {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input.button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 100px;
+}
+
 textarea.intent {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: gray;
@@ -153,6 +169,13 @@ button.intent{
     font-size: 16px;
     margin-left: 15px;
     margin-right: 0px;
+}
+
+input.eyepop.radio{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .searchbar {
@@ -256,11 +279,21 @@ button.login-form {
 .event{
     display: flex;
     margin-left: 35%;
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.eventfields{
+    display: flex;
+    font-size: 17px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .eventheading {
-    margin-left: 35%;
     padding-top: 10px;
+    text-align: center;
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .allencompasing{
