@@ -88,7 +88,7 @@ h1.bold {
     font-size: 45px;
     text-align: center;
     color: greenyellow;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 25px;
 }
 
@@ -127,6 +127,32 @@ p.intent {
     color: white;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+input.intent {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: gray;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+textarea.intent {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button.intent{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 0px;
 }
 
 .searchbar {
@@ -191,7 +217,7 @@ button.login-form {
 
 .editable-fields{
     display: flex;
-    height: 90%;
+    height: 100%;
     width: 300px;
     align-self: center;
     background-color: rgba(128, 128, 128, 0.6);
@@ -199,7 +225,7 @@ button.login-form {
     margin-left: 500px;
     padding-left: 115px;
     padding-right: 115px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
 }
 
