@@ -419,3 +419,10 @@ h1.res{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.confirmationText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}

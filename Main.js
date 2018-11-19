@@ -17,3 +17,4 @@ function changeInfo() {
     document.getElementById('ad').innerHTML = address
     document.getElementById('ints').innerHTML = interests
 }
+
